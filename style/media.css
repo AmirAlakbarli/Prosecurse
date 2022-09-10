@@ -1,0 +1,229 @@
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    background-position: 45%;
+    padding: 0;
+  }
+
+  header .container {
+    margin-top: 10vh;
+    padding-top: 50px;
+  }
+
+  .menu div:not(.navbar-toggler) {
+    display: block;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    position: fixed;
+    height: 10vh;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    padding-bottom: 0;
+    background-color: #f3f3f3;
+    align-items: center;
+  }
+
+  .navbar .navbar-brand {
+    flex-grow: 2;
+  }
+
+  .menu {
+    flex-grow: 1;
+    justify-content: space-evenly;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+    display: inline-block;
+  }
+
+  .navbar > nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    transition: 0.5s;
+    height: 90vh;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+  }
+
+  .navbar nav ul li {
+    width: 100%;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin: 30px 0px;
+  }
+
+  .navbar nav ul li:not(:first-child) {
+    padding-left: 0;
+  }
+
+  .navbar > nav.open {
+    right: 0;
+    width: 100%;
+    background-color: #f3f3f3;
+  }
+
+  .headtext {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  header .cards {
+    width: 90%;
+    margin: auto;
+  }
+
+  .headbutton {
+    flex-direction: column;
+  }
+
+  .second_btn {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  header .cards {
+    flex-direction: column;
+    position: static;
+  }
+
+  header .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .features {
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 100px 0;
+  }
+
+  .features .maincontent {
+    width: 100%;
+  }
+
+  .features .cards {
+    width: 90%;
+    padding-top: 60px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features .card {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .about {
+    padding-top: 80px;
+  }
+
+  .about .maincontent {
+    width: 100%;
+  }
+
+  .about .cards {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .about .cards .card-img {
+    height: 500px;
+    width: 100%;
+  }
+
+  .about .cards .card-text {
+    width: 100%;
+  }
+
+  .social ul {
+    flex-direction: column;
+  }
+
+  .social ul li {
+    margin-bottom: 40px;
+  }
+
+  .clientbottom {
+    display: none;
+  }
+
+  .clients .container {
+    width: 100%;
+  }
+
+  .subscribe {
+    padding: 30px 50px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .subscribe h3 {
+    text-align: center;
+    width: 80%;
+  }
+
+  .input-group {
+    margin-top: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .contact .maincontent {
+    width: 100%;
+  }
+
+  .contact .cards {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact .cards .card {
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .footerrequest {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footerrequest button {
+    margin-top: 50px;
+  }
+
+  footer .row .container {
+    flex-direction: column;
+  }
+
+  footer .col {
+    width: 100%;
+  }
+
+  .end {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .end .socialmedia ul li:first-child {
+    padding-left: 0;
+  }
+  .end .socialmedia ul {
+    margin-top: 20px;
+  }
+}
